@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mynotebook.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>My Notebook</name>
+    <description>A premium digital notebook app with folders, rich text, cloud sync and PIN lock.</description>
+    <author email="you@example.com" href="https://example.com">Your Name</author>
+
+    <content src="index.html" />
+
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="*" />
+
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#6C5CE7" />
+    <preference name="android-minSdkVersion" value="22" />
+    <preference name="android-targetSdkVersion" value="34" />
+    <preference name="AndroidXEnabled" value="true" />
+
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="icons/icon-192.png" />
+        <icon density="mdpi" src="icons/icon-192.png" />
+        <icon density="hdpi" src="icons/icon-192.png" />
+        <icon density="xhdpi" src="icons/icon-512.png" />
+        <icon density="xxhdpi" src="icons/icon-512.png" />
+        <icon density="xxxhdpi" src="icons/icon-512.png" />
+    </platform>
+</widget>
